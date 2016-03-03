@@ -1,0 +1,7 @@
+Version 0004
+1. Save and load project via ajax
+2. Easily customise colors
+
+Version 0003
+1. Support to edit timer names and store them locally
+2. Support to edit poject name and stored locally

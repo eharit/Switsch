@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Player Timer</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+	<script type="text/javascript" src="js/app.js"></script>
+</head>
+
+<body>
+	<div id="content" class="fix-width">
+		<div id="left-container" class="container">
+			<div id="timer-1" class="timer relative">
+				<div id="timerName1" class="label green-text muted interactive" contenteditable="true" tabindex=2>PLAYER 1</div><div class="tooltip"><div class="tooltip-inner">Click to edit</div></div>
+				<div id="time1" class="counter green-text">00:00:00</div>
+			</div>
+		</div>
+		<div id="middle-container" class="container">
+			<div id="switch-bg" class="default-gradient">
+				<button id="switch-button" class="relative" tabindex=1>
+					<div id="switch-counter" class="green-text interactive">Start</div><div class="tooltip"><div class="tooltip-inner">Click to start timer</div></div>
+				</button>
+			</div>
+		</div>
+		<div id="right-container" class="container">
+			<div id="timer-2" class="timer relative">
+				<div id="timerName2" class="label blue-text muted interactive" contenteditable="true" tabindex=3>PLAYER 2</div><div class="tooltip"><div class="tooltip-inner">Click to edit</div></div>
+				<div id="time2" class="counter blue-text">00:00:00</div>
+			</div>
+		</div>
+	</div>
+	<div id="footer" class="fix-width">
+		<div id="logo">
+			<div class="green-text muted inline label">PLAYER</div> <div class="blue-text muted inline label">TIMER :</div> <div class="inline relative"><div id="projectName" class="inline label muted interactive" contenteditable="true" tabindex=4>new project</div><div class="tooltip"><div class="tooltip-inner">Click to edit</div></div></div>
+		</div>
+		<div id="clog">
+			<a href="" id="reset" class="label" tabindex=5>RESET</a>
+		</div>
+	</div>
+</body>
+
+</html>
