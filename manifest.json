@@ -1,9 +1,9 @@
 {
 	"manifest_version": 2,
 
-	"name": "PlayerTimer",
+	"name": "Switsch",
 	"description": "Dual timer",
-	"version": "0.4",
+	"version": "1.0",
 
 	"icons": {
 		"16": "images/icon16.png",
