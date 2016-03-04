@@ -49,8 +49,8 @@ function app() {
 		project.time1 = parseInt(localStorage.time1) || 0;
 		project.time2 = parseInt(localStorage.time2) || 0;
 		project.togglePosition = localStorage.togglePosition || 0;
-		project.timerName1 = localStorage.timerName1 || "PLAYER 1";
-		project.timerName2 = localStorage.timerName2 || "PLAYER 2";
+		project.timerName1 = localStorage.timerName1 || "TIMER 1";
+		project.timerName2 = localStorage.timerName2 || "TIMER 2";
 		project.name = localStorage.projectName || "NEW PROJECT";
 		if (project.togglePosition != "") {
 			autoStartCounter();
